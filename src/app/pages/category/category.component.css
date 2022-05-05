@@ -1,62 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-* {
+*{
     box-sizing: border-box;
-}
-
-h2 {
-    font-family: "Roboto", monospace;
-    font-weight: 500;
-    font-size: 24pt;
-}
-
-h3 {
-    font-family: "Roboto", monospace;
-    font-weight: 400;
-    font-size: 20pt;
-}
-
-body {
-    font-family: 'Roboto', monospace;
-    font-weight: 300;
-}
-
-a {
+    border: none;
     text-decoration: none;
+    font-family: "Roboto", monospace;
 }
 
-.main-image {
-    position: relative;
-    text-align: center;
+.menu a {
+    margin: auto;
 }
 
 .img_welcome {
-    height: 20em;
-    padding: 40px 40px 40px 40px;
-    justify-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://p.bookcdn.com/data/Photos/r1920x773/7054/705429/705429376/Servatur-Green-Beach-photos-Exterior.JPEG");
 }
 
-.title_container {
+.img_card {
     height: 100%;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: 2px solid white;
-    box-sizing: border-box;
-    padding: 40px;
-    justify-content: center;
 }
 
-.welcome_title {
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    font-family: "Impact", monospace;
-    width: auto;
+
+.cat_intro_text {
+    padding: 30px;
+}
+
+.img_info_card {
+    width: 100%;
+    margin: 30px 0;
+    overflow: auto;
+    padding: 30px;
+    border-radius: 2.0em;
+    box-shadow: 0.05rem 0.1rem 1rem -0.03rem rgb(0 0 0 / 45%);
+}
+
+.col_50_right {
+    float: right;
+    display: inline;
+    width: 50%;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+}
+
+.col_50_left {
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 30px 0 0;
+    overflow: hidden;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+    .col_50_right{
+        width: 100%;
+        padding:  0;
+        float: left;
+    }
+    .col_50_left {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+body {
+    line-height: 1.75;
 }
 
 main {
