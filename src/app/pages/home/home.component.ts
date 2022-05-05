@@ -10,7 +10,8 @@ import {RetrieveService} from "../../services/retrieve.service";
 export class HomeComponent implements OnInit {
 
   homeIntroBG: Observable<any[]>
-  homeTitleInfo: Observable<any[]>;
+  homeCatTxt: Observable<any[]>;
+  homeInspTxt: Observable<any[]>;
   homeGalleryData: Observable<any[]>;
   homeGalleryInspiredData: Observable<any[]>;
   homeGalleryEventData: Observable<any[]>;
@@ -18,7 +19,8 @@ export class HomeComponent implements OnInit {
 
   constructor(private service: RetrieveService) {
     this.homeIntroBG = this.service.getCollection('IntroBGs');
-    this.homeTitleInfo = this.service.getCollection('HomeTitleInfo');
+    this.homeCatTxt = this.service.getCollection('HomeCatTxt');
+    this.homeInspTxt = this.service.getCollection('HomeInspTxt');
     this.homeGalleryData = this.service.getCollection('HomeCategories');
     this.homeGalleryInspiredData = this.service.getCollection('HomeInspired');
     this.homeGalleryEventData = this.service.getCollection('EventRelated');

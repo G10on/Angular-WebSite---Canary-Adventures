@@ -1,23 +1,21 @@
 <app-intro-title title="Welcome to Canary Islands" image="https://p.bookcdn.com/data/Photos/r1920x773/7054/705429/705429376/Servatur-Green-Beach-photos-Exterior.JPEG"></app-intro-title>
 
 <main>
-  <app-section
-    title="Discover"
-    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
-  </app-section>
+  <app-sections
+    [data]=homeCatTxt>
+  </app-sections>
 
-  <app-section-gallery
+  <app-block-gallery
     [blocksData]=homeGalleryData>
-  </app-section-gallery>
+  </app-block-gallery>
 
-  <app-section
-    title="Get Inspired"
-    content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.">
-  </app-section>
+  <app-sections
+    [data]=homeInspTxt>
+  </app-sections>
 
-  <app-section-gallery
+  <app-block-gallery
     [blocksData]=homeGalleryInspiredData>
-  </app-section-gallery>
+  </app-block-gallery>
 
   <app-related-event
     [relatedContent]=homeGalleryEventData>
