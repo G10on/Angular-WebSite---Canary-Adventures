@@ -1,0 +1,15 @@
+<div class="cards_intro" id="inspired">
+  <article class="img_info_card" *ngFor="let block of blocksData | async">
+    <a href={{block.link}}>
+      <img class="img_card" src={{block.image}}>
+    </a>
+    <div class="info_card">
+        <h4>
+            {{block.title}}
+        </h4>
+        <p>
+            {{block.content}}
+        </p>
+    </div>
+  </article>
+</div>

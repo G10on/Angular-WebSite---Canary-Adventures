@@ -1,0 +1,15 @@
+<section class="img_info_card" *ngFor="let item of data | async">
+<div class="col_50_left">
+    <img
+            class="img_card"
+            src={{item.image}}>
+</div>
+<div class="col_50_right">
+    <h3>
+        {{item.title}}
+    </h3>
+    <p>
+        {{item.content}}
+    </p>
+</div>
+</section>

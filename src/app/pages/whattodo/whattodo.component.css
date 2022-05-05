@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: "ROBOTO", monospace;
+}
+
+.img_welcome {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images-ext-1.discordapp.net/external/HqZ7BpoSveVX5L57L_mMimKN1RCv3xKkWpLec4hy4U4/https/www.conociendoespana.com/wp-content/uploads/2020/01/tenerife-teide.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.welcome_title {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: "Impact", monospace;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.cards_intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0 50px;
+    padding: 0 5%;
+    box-shadow: 0.05rem 0.1rem 1rem -0.03rem rgba(0, 0, 0, 0.45);
+}
+
+.img_info_card {
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: 50px auto;
+}
+
+.img_card {
+    width: 100%;
+    height: 350px;
+}
+
+
+.info_card {
+    background-color: #fed;
+    padding: 20px 40px;
+}
+
+.cat_intro_text {
+    padding: 30px;
+}
+
+.home_newsletter_section {
+    width: 100%;
+    margin: 30px 0;
+    overflow: auto;
+    box-shadow: 0.05rem 0.1rem 1rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding: 30px;
+}
+
+.col_50_right {
+    float: right;
+    display: inline;
+    width: 50%;
+    height: 100%;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+}
+
+.col_50_left {
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 30px 0 0;
+    overflow: hidden;
+}
+
+.img_newsletter {
+    width: 100%;
+}
+
+h3 {
+    color: #6dd;
+}
+
+main {
+    padding: 0 10%;
+}

@@ -1,0 +1,5 @@
+<div class="logo-img">
+  <a *ngFor="let logo of this.logoInfo | async " [routerLink]='logo.link'>
+    <img [src]='logo.image'>
+  </a>
+</div>

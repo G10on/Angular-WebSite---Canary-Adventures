@@ -1,0 +1,71 @@
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-family: "Roboto", monospace;
+  font-weight: 400;
+  font-size: 20pt;
+}
+
+.location-map img {
+  height: 300px;
+}
+
+.location-map {
+  align-content: center;
+}
+
+.related-info {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.related-info p  {
+  margin-top: 0.5em;
+  font-size: 12pt;
+  font-family: "Roboto", monospace;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.related-info div  {
+  font-size: 12pt;
+  font-family: "Roboto", monospace;
+  font-weight: 300;
+}
+
+.left-panel div {
+  margin-top: 1.0em;
+}
+
+.left-panel fa-icon {
+  margin-right: 0.5em;
+}
+
+section {
+  padding: 0 10%;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 1150px) {
+  .related-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location-map img {
+    width: 100%;
+    height: auto;
+  }
+
+  .related-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  figure {
+    display: flex;
+    align-items: center;
+  }
+}

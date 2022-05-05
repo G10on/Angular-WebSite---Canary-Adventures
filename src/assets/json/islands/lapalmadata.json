@@ -1,0 +1,33 @@
+{
+  "title": "LA PALMA",
+  "welcome": "Welcome to La Palma, enjoy your journey!",
+  "topics": [
+    {
+      "title": "Roque de los Muchachos",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Roque_de_los_Muchachos_-_ORM_-_ATC_-_WHT_-_DOT_-_LT_-_SST_-_GOTO_-_INT_-_JKT.jpg/1200px-Roque_de_los_Muchachos_-_ORM_-_ATC_-_WHT_-_DOT_-_LT_-_SST_-_GOTO_-_INT_-_JKT.jpg"
+    },
+    {
+      "title": "Cubo de la Galga",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://estonoesloquepareze.com/wp-content/uploads/2021/08/cubo-galga-1portada7.jpg"
+    },
+    {
+      "title": "La Cumbrecita",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.holaislascanarias.com/sites/default/files/styles/masonry_image/public/resources/resource_image/mirador_de_la_cumbrecita-la_palma_1.jpg?itok=ZPU_7XcW"
+    },
+    {
+      "title": "Bosque de los Tilos",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.visitlapalma.es/wp-content/uploads/2017/12/LaPalma_Bosque-de-LosTilos_P.Fern%C3%A1ndez.jpg"
+    }
+  ],
+  "places": [
+    {
+      "name": "Puerto Naos",
+      "image": "https://www.visitlapalma.es/wp-content/uploads/2017/12/LaPalma_PlayaPuertoNaos9070_Dami%C3%A1n-Mart%C3%ADnBrito.jpg",
+      "description": "Nam mauris neque, pharetra ut ornare non, ullamcorper id urna. In id dignissim tellus. Etiam vitae diam vitae neque euismod iaculis. Cras ornare justo sit amet lectus ultricies eleifend. Aenean tincidunt ipsum vel risus vestibulum, sit amet elementum arcu congue. Etiam fringilla ac lacus et euismod. Praesent rutrum lacus ac urna tincidunt, vitae bibendum ante maximus."
+    }
+  ]
+}

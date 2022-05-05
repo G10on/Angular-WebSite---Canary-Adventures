@@ -1,0 +1,40 @@
+{
+  "article_title": "VEGETATION IN LA PALMA",
+  "sections": [
+    {
+      "title": "First Section",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n                    Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n                    Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n                    Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n                    Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n                    Phasellus dignissim diam in consectetur faucibus. Nullam vel magna dui."
+    },
+    {
+      "title": "Second Section",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim urna purus. Etiam non sagittis enim.\n                    Vestibulum justo quam, mattis sit amet tortor in, imperdiet suscipit ante. Donec egestas velit in lectus porttitor feugiat.\n                    Pellentesque pharetra dui sapien, id efficitur sem iaculis nec. Cras ornare sem id est condimentum dapibus.\n                    In quis sodales felis. Ut finibus ligula scelerisque lacus consectetur luctus.\n                    Fusce in magna sed ipsum blandit luctus ac non nulla. Donec ullamcorper mi maximus, imperdiet dui et, venenatis lorem."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://www.geographica.es/media/cache/imagen_galeria/images/imagen/5c866032dc1c2421084018.jpg"
+    }
+  ],
+  "related_articles_content": [
+    {
+      "image": "",
+      "title": "Weather in Canary Islands",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "",
+      "title": "Lanzarote A Caballo",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "",
+      "title": "Tour in Lanzarote",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "",
+      "title": "Surf classes in Las Canteras",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+}

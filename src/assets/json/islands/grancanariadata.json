@@ -1,0 +1,33 @@
+{
+  "title": "GRAN CANARIA",
+  "welcome": "Welcome to Gran Canaria, enjoy your journey!",
+  "topics": [
+    {
+      "title": "Dunas de Maspalomas",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://grancanarianoticias.es/wp-content/uploads/2021/06/dunas-de-maspalomas-gran-canaria.jpg"
+    },
+    {
+      "title": "Roque Nublo",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/12/Roque-nublo_g.jpg"
+    },
+    {
+      "title": "Canteras Beach",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://aloecanteras.com/wp-content/uploads/2020/05/GRAN-CANARIA-004.jpg"
+    },
+    {
+      "title": "Barranco de las Vacas",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://viajerosocultos.com/wp-content/uploads/2022/01/scenic-limestone-canyon-barranco-vacas-in-gran-canaria-canary-islands-spain.jpg"
+    }
+  ],
+  "places": [
+    {
+      "name": "Maspalomas",
+      "image": "https://hf-s3.hotelfriend.com/pages/344/playa-de-maspalomas-gran-canaria-34708.jpg",
+      "description": "Nam mauris neque, pharetra ut ornare non, ullamcorper id urna. In id dignissim tellus. Etiam vitae diam vitae neque euismod iaculis. Cras ornare justo sit amet lectus ultricies eleifend. Aenean tincidunt ipsum vel risus vestibulum, sit amet elementum arcu congue. Etiam fringilla ac lacus et euismod. Praesent rutrum lacus ac urna tincidunt, vitae bibendum ante maximus."
+    }
+  ]
+}

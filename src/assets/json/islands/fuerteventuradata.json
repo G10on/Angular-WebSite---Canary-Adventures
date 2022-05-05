@@ -1,0 +1,28 @@
+{
+  "title": "FUERTEVENTURA",
+  "welcome": "Welcome to Fuerteventura, enjoy your journey!",
+  "topics": [
+    {
+      "title": "Dunas de Corralejo",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.holaislascanarias.com/sites/default/files/styles/16_9_desktop/public/resources/header_images/Dunas-Corralejo-cab-D.jpg?itok=iAn8wFkF"
+    },
+    {
+      "title": "Cuevas de Ajuy",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/11/cuevas-de-ajuy_fuerteventura_888.jpg"
+    },
+    {
+      "title": "Playa de la Concha",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/11/playa-de-la-concha_fuerteventura_playa-de-los-lagos_888.jpg"
+    }
+  ],
+  "places": [
+    {
+      "name": "Costa Calma",
+      "image": "https://www.holaislascanarias.com/sites/default/files/styles/16_9_desktop/public/resources/header_images/Costa-calma_0158-cab-D_0.jpg?itok=Db9PlHIy",
+      "description": "Nam mauris neque, pharetra ut ornare non, ullamcorper id urna. In id dignissim tellus. Etiam vitae diam vitae neque euismod iaculis. Cras ornare justo sit amet lectus ultricies eleifend. Aenean tincidunt ipsum vel risus vestibulum, sit amet elementum arcu congue. Etiam fringilla ac lacus et euismod. Praesent rutrum lacus ac urna tincidunt, vitae bibendum ante maximus."
+    }
+  ]
+}

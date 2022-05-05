@@ -1,0 +1,24 @@
+section {
+  text-align: justify;
+  text-justify: inter-word;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+  padding: 0 10%;
+  font-family: 'Roboto', monospace;
+  font-weight: 300;
+}
+
+section p {
+  line-height: 1.75;
+  font-size: 12pt;
+  font-family: "Roboto", monospace;
+}
+
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-family: "Roboto", monospace;
+  font-weight: 400;
+  font-size: 20pt;
+}

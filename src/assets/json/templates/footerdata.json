@@ -1,0 +1,83 @@
+{
+  "footerlogo": [
+    {
+      "img": "/images/icon3.png"
+    }
+  ],
+  "footerul": [
+    {
+      "title": "Information",
+      "elementsul": [
+        {
+          "a": "#",
+          "text": "Information"
+        },
+        {
+          "a": "#",
+          "text": "Information"
+        },
+        {
+          "a": "#",
+          "text": "Information"
+        }
+      ]
+    },
+    {
+      "title": "Information",
+      "elementsul": [
+        {
+          "a": "#",
+          "text": "Information"
+        },
+        {
+          "a": "#",
+          "text": "Information"
+        },
+        {
+          "a": "#",
+          "text": "Information"
+        }
+      ]
+    },
+    {
+      "title": "Information",
+      "elementsul": [
+        {
+          "a": "#",
+          "text": "Information"
+        },
+        {
+          "a": "#",
+          "text": "Information"
+        },
+        {
+          "a": "#",
+          "text": "Information"
+        }
+      ]
+    }
+  ],
+  "companyinfo": [
+    {
+      "text": "Canary Adventure. 2022. Lorem ipsum dolor sit amit."
+    }
+  ],
+  "socialmedia": [
+    {
+      "link": "https://www.instagram.com/?hl=es",
+      "icon": "fa-brands fa-instagram fa-xl"
+    },
+    {
+      "link": "https://es-es.facebook.com",
+      "icon": "fa-brands fa-facebook fa-xl"
+    },
+    {
+      "link": "https://twitter.com/?lang=es",
+      "icon": "fa-brands fa-twitter fa-xl"
+    },
+    {
+      "link": "https://www.youtube.com",
+      "icon": "fa-brands fa-youtube fa-xl"
+    }
+  ]
+}

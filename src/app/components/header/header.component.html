@@ -1,0 +1,50 @@
+<header>
+  <app-logo></app-logo>
+
+  <nav id="header-nav">
+    <ul class="menu">
+      <li *ngFor="let headerNavItem of headerNavItems | async">
+        <a [routerLink]="headerNavItem.link">
+          {{headerNavItem.viewValue}}
+        </a>
+      </li>
+      <li>
+        <a href="#"><fa-icon [icon]="['fas', 'magnifying-glass']"></fa-icon></a></li>
+    </ul>
+
+    <select name="languages" id="languages">
+      <option *ngFor="let language of siteLanguages | async" [value]="language.value">
+        {{language.viewValue}}
+      </option>
+    </select>
+  </nav>
+  <div class="header-icons">
+    <div class="search-icon">
+      <a href="#"><fa-icon [icon]="['fas', 'magnifying-glass']"></fa-icon></a>
+    </div>
+    <div class="bars-dropdown">
+      <button mat-button [matMenuTriggerFor]="barmenu"><fa-icon [icon]="['fas', 'bars']"></fa-icon></button>
+      <mat-menu #barmenu="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="destinations">Destinations</button>
+        <button mat-menu-item *ngFor="let dropdownNavItem of dropdownNavItems | async">
+          <a [routerLink]="dropdownNavItem.link">
+            {{dropdownNavItem.viewValue}}
+          </a>
+        </button>
+        <button mat-menu-item [matMenuTriggerFor]="languages">Language</button>
+      </mat-menu>
+      <mat-menu #destinations="matMenu">
+        <button mat-menu-item *ngFor="let destination of this.islandDestinations | async">
+          <a [routerLink]='destination.link' routerLinkActive="active">
+            {{destination.viewValue}}
+          </a>
+        </button>
+      </mat-menu>
+      <mat-menu #languages="matMenu">
+        <button mat-menu-item *ngFor="let language of siteLanguages | async">
+            {{language.viewValue}}
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+</header>

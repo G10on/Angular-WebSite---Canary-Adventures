@@ -1,0 +1,47 @@
+{
+  "information": [
+    {
+      "title": "Sign up for our newsletter",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim urna purus.\n            Etiam non sagittis enim. Vestibulum justo quam, mattis sit amet tortor in, imperdiet suscipit ante.\n            Donec egestas velit in lectus porttitor feugiat."
+    }
+  ],
+  "form": [
+    {
+      "type": "text",
+      "id": "firstname",
+      "placeholder": "First name",
+      "name": "firstname"
+    },
+    {
+      "type": "text",
+      "id": "lastname",
+      "placeholder": "Last name",
+      "name": "lastname"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "placeholder": "Email",
+      "name": "email"
+    }
+  ],
+  "form_language_select": [
+    {
+      "value": "english",
+      "option": "English"
+    },
+    {
+      "value": "spanish",
+      "option": "Español"
+    },
+    {
+      "value": "german",
+      "option": "Deutsch"
+    },
+    {
+      "value": "french",
+      "option": "Français"
+    }
+  ]
+
+}

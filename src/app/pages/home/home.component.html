@@ -1,0 +1,25 @@
+<app-intro-title title="Welcome to Canary Islands" image="https://p.bookcdn.com/data/Photos/r1920x773/7054/705429/705429376/Servatur-Green-Beach-photos-Exterior.JPEG"></app-intro-title>
+
+<main>
+  <app-section-gallery
+    title="Discover"
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit." [blocksData]=homeGalleryData>
+  </app-section-gallery>
+
+  <app-section-gallery
+    title="Get Inspired"
+    content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+    [blocksData]=homeGalleryInspiredData>
+  </app-section-gallery>
+
+  <app-related-event
+    [relatedContent]=homeGalleryEventData>
+  </app-related-event>
+
+</main>
+
+<!--
+<app-sections [data]=homeTitleInfo></app-sections>
+
+<app-block-gallery [blocksData]=homeGalleryData></app-block-gallery>
+-->

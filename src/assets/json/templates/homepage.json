@@ -1,0 +1,86 @@
+{
+  "categories":[
+    {
+      "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/73/74/3c/les-piscines.jpg?w=1200&h=-1&s=1",
+      "title": "El Hierro",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "elhierro.html"
+    },
+    {
+      "image" : "https://images.musement.com/cover/0002/46/dunas-fuerteventura-png_header-145589.png?w=1200&h=630&q=95&fit=crop",
+      "title": "Fuerteventura",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "fuerteventura.html"
+    },
+    {
+      "image" : "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/europe/spain/gran-canaria/destinations-gran-canaria-banner-mobile-1024x553.jpg",
+      "title": "Gran Canaria",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "grancanaria.html"
+    },
+    {
+      "image" : "https://soyecoturista.com/wp-content/uploads/2019/04/BAILADERO-GARAJONAY_red2-1038x688.jpg",
+      "title": "La Gomera",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "lagomera.html"
+    },
+    {
+      "image" : "https://img2.rtve.es/imagenes/espana-directo-vamos-viaje-graciosa-octava-isla-canaria/1621622741654.jpg",
+      "title": "La Graciosa",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "lagraciosa.html"
+    },
+    {
+      "image" : "https://media.traveler.es/photos/614c971533ea833b39df0722/16:9/w_2560%2Cc_limit/UgaYaza-AnteVolcanes-FotoLR-9.jpg",
+      "title": "Lanzarote",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "lanzarote.html"
+    },
+    {
+      "image" : "https://www.hola.com/imagenes//viajes/20210823194909/la-palma-los-tilos-canarias/0-987-158/bosque-tilos-t.jpg",
+      "title": "La Palma",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "lapalma.html"
+    },
+    {
+      "image" : "https://www.belivehotels.com/imagenes/modules/espana_tenerife_playa_jardin_1_1600x1090.jpg",
+      "title": "Tenerife",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "tenerife.html"
+    }
+  ],
+
+  "inspired":[
+    {
+      "image" : "https://thecitytips.com/wp-content/uploads/2022/01/spain-canary-islands-tenerife-weather.jpg",
+      "title": "Canary Islands Weather",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "article-canary-islands-weather.html"
+    },
+    {
+      "image" : "https://www.holaislascanarias.com/sites/default/files/styles/masonry_image/public/resources/resource_image/lanzarote_a_caballo-lanzarote_3.jpg?itok=lKgjFzO-",
+      "title": "Lanzarote A Caballo",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "article-lanzarote-a-caballo.html"
+    },
+    {
+      "image" : "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/3b/0e.jpg",
+      "title": "Tour in Lanzarote",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "article-lanzarote-tour.html"
+    },
+    {
+      "image" : "https://static.eldiario.es/clip/e6a89a1f-478e-4b65-a4ee-7e00eaca5cc7_16-9-aspect-ratio_default_0.jpg",
+      "title": "Surf classes in Las Canteras",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "article-surf-canteras.html"
+    },
+    {
+      "image" : "https://www.geographica.es/media/cache/imagen_galeria/images/imagen/5c866032dc1c2421084018.jpg",
+      "title": "Vegetation in La Palma",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "article-vegetation-lapalma.html"
+    }
+  ]
+
+}

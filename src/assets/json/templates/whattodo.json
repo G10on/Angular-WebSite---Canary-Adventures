@@ -1,0 +1,44 @@
+{
+  "wtd_categories": [
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 3",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 4",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 5",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 6",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 7",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "image": "https://i2-prod.mirror.co.uk/incoming/article12454059.ece/ALTERNATES/s615b/0_MAIN-Canary-Islands-Gran-Canaria-Puerto-Rico-Playa-de-Los-Amadores.jpg",
+      "title": "Category 8",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+}

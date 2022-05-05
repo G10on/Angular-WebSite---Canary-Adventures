@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+h2 {
+  font-family: "Roboto", monospace;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 20pt;
+}
+
+.faq-searchbar {
+  height: 1.25em;
+  width: 600px;
+  border-radius: 15px;
+  padding: 0 1.2em;
+  border: 1px solid grey;
+}
+
+input.faq-searchbar {
+  font-family: 'Roboto', monospace;
+  font-weight: 300;
+  font-size: 15pt;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.search-container i {
+  padding: 0 1em;
+}
+
+.search-container input {
+  padding: 14px 16px;
+  border-radius: 20px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  background: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 20px;
+  padding: 14px 16px;
+}
+
+form {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .faq-searchbar {
+    width: max-content;
+  }
+}

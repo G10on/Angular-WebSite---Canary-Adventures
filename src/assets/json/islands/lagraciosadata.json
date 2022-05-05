@@ -1,0 +1,33 @@
+{
+  "title": "LA GRACIOSA",
+  "welcome": "Welcome to La Graciosa, enjoy your journey!",
+  "topics": [
+    {
+      "title": "La Francesa",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.holaislascanarias.com/sites/default/files/styles/16_9_desktop/public/resources/header_images/Playa-La-Francesa_0136-2-cab-D_0.JPG?itok=Q6F2eR40"
+    },
+    {
+      "title": "Montaña Amarilla",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/45/4f/8a/img-20180612-122553-largejpg.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "title": "Pedro Barba",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.visitlagraciosa.com/wp-content/uploads/2019/02/pedro-barba-en-la-graciosa.jpg"
+    },
+    {
+      "title": "Aguja Grande",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://mapio.net/images-p/97318404.jpg"
+    }
+  ],
+  "places": [
+    {
+      "name": "Caleta de Sebo",
+      "image": "https://www.visitlagraciosa.com/wp-content/uploads/2018/12/caleta-de-sebo-calle.jpg",
+      "description": "Nam mauris neque, pharetra ut ornare non, ullamcorper id urna. In id dignissim tellus. Etiam vitae diam vitae neque euismod iaculis. Cras ornare justo sit amet lectus ultricies eleifend. Aenean tincidunt ipsum vel risus vestibulum, sit amet elementum arcu congue. Etiam fringilla ac lacus et euismod. Praesent rutrum lacus ac urna tincidunt, vitae bibendum ante maximus."
+    }
+  ]
+}

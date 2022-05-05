@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+article {
+  line-height: 1.75;
+  margin: auto;
+  width: 100%;
+  font-weight: 300;
+  text-align: justify;
+}
+
+form {
+  margin-top: 3.5em;
+  margin-bottom: 4em;
+  padding: 4em 4em;
+  background-color: rgba(169, 214, 229, 0.49);
+  display: flex;
+  flex-direction: column;
+  border-radius: 2em;
+}
+
+#message {
+  padding-bottom: 1.5em;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+}
+
+form input[type="text"], form input[type="email"], form select {
+  font-family: 'Roboto', monospace;
+  font-weight: 300;
+  font-size: 13pt;
+  padding: 0 1em;
+  height: 3.0em;
+  width: 45%;
+  border-radius: 2em;
+  border: 1px solid grey;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(68, 177, 224, 0.42);
+}
+
+form input[type="submit"] {
+  height: 3em;
+  padding: 14px 45px;
+  text-transform: uppercase;
+  font-family: 'Roboto', monospace;
+  font-size: 13pt;
+  background-color: rgba(7, 56, 91, 0.55);
+  font-weight: 500;
+  border-radius: 2em;
+  border: 1px solid grey;
+  color: white;
+}
+
+.subscribe-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5em;
+}
+
+.row {
+  padding: 0.75em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#form {
+  padding: 0 10%;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .row input {
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .row input[type], .row select{
+    width: 80%;
+  }
+
+  form {
+    padding: 3em 0;
+  }
+}

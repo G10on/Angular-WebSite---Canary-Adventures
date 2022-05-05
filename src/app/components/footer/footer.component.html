@@ -1,0 +1,25 @@
+<footer>
+  <div class="upper-div">
+    <app-logo></app-logo>
+    <nav class="footer-links">
+      <ul *ngFor="let footerLink of footerLinks | async">
+        <b>{{footerLink.title}}</b><br>
+        <a *ngFor="let elementUl of footerLink.elementsul" href="#">
+          {{elementUl}}
+        </a>
+      </ul>
+    </nav>
+  </div>
+  <hr>
+  <div class="lower-div">
+    <div class="footer-company-info">
+      Canary Adventure. 2022. Lorem ipsum dolor sit amit.
+    </div>
+
+    <nav>
+      Follow us:
+      <a *ngFor="let link of footerSocialMediaLinks | async" [href]="link.link">
+        <fa-icon [icon]="['fab', link.icon]"></fa-icon></a>
+    </nav>
+  </div>
+</footer>

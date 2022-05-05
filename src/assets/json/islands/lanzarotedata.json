@@ -1,0 +1,38 @@
+{
+  "title": "LANZAROTE",
+  "welcome": "Welcome to Lanzarote, enjoy your journey!",
+  "topics": [
+    {
+      "title": "Jameos del Agua",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://ociolanzarote.com/wp-content/imagenes/MG_4827.jpg"
+    },
+    {
+      "title": "Cueva de los Verdes",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://cactlanzarote.b-cdn.net/wp-content/uploads/2016/02/CUEVADELOSVERDES-3736-scaled.jpg"
+    },
+    {
+      "title": "Jardín de Cactus",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://cactlanzarote.b-cdn.net/wp-content/uploads/2017/11/Jardin-general-03-1024x620.jpg"
+    },
+    {
+      "title": "Timanfaya",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://live.staticflickr.com/65535/50831044791_35fab492dd_c.jpg"
+    },
+    {
+      "title": "Papagayo Beach",
+      "content": "Maecenas iaculis pulvinar tellus, nec fermentum ligula sodales ac. Nullam quis dictum lacus.\n              Donec non quam in tellus aliquam tempor. Proin sed molestie turpis.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n              Etiam feugiat ex ac sem ornare placerat. Praesent volutpat pharetra velit, ac mattis neque molestie ac.\n              Vestibulum ut malesuada mauris, a semper nulla. Morbi non erat et urna cursus viverra quis eu velit.\n              Cras a congue mi. Quisque a nunc at nisl auctor pharetra.\n              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "image": "https://www.holaislascanarias.com/sites/default/files/styles/masonry_image/public/resources/resource_image/Galeria-Playa-de-Papagayo-01_0.jpg?itok=lOnd4FfX"
+    }
+  ],
+  "places": [
+    {
+      "name": "Puerto del Carmen",
+      "image": "https://www.ayuntamientodetias.es/wp-content/uploads/2021/05/DH-FotografaDH-FotografaIMG_6155.jpg",
+      "description": "Nam mauris neque, pharetra ut ornare non, ullamcorper id urna. In id dignissim tellus. Etiam vitae diam vitae neque euismod iaculis. Cras ornare justo sit amet lectus ultricies eleifend. Aenean tincidunt ipsum vel risus vestibulum, sit amet elementum arcu congue. Etiam fringilla ac lacus et euismod. Praesent rutrum lacus ac urna tincidunt, vitae bibendum ante maximus."
+    }
+  ]
+}

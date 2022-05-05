@@ -1,0 +1,101 @@
+{
+  "headerlogo": [
+    {
+      "a": "index.html",
+      "class": "logo",
+      "img": "../images/icon3.png"
+    }
+  ],
+  "headernavlinks": [
+    {
+      "li": "Destinations",
+      "a": "index.html#discover"
+    },
+    {
+      "li": "What to do",
+      "a": "whattodo.html"
+    },
+    {
+      "li": "About",
+      "a": "aboutpage.html"
+    },
+    {
+      "li": "FAQs",
+      "a": "faqspage.html"
+    }
+  ],
+
+  "headernavicons": [
+    {
+      "i": "fa-solid fa-magnifying-glass"
+    }
+  ],
+
+  "languageselect": [
+    {
+      "value": "english",
+      "option": "English"
+    },
+    {
+      "value": "spanish",
+      "option": "Español"
+    },
+    {
+      "value": "german",
+      "option": "Deutsch"
+    },
+    {
+      "value": "french",
+      "option": "Français"
+    }
+  ],
+
+  "destinations": [
+    {
+      "option": "El Hierro",
+      "value": "elhierro.html"
+    },
+    {
+      "option": "Fuerteventura",
+      "value": "fuerteventura.html"
+    },
+    {
+      "option": "Gran Canaria",
+      "value": "grancanaria.html"
+    },
+    {
+      "option": "La Gomera",
+      "value": "lagomera.html"
+    },
+    {
+      "option": "La Graciosa",
+      "value": "lagraciosa.html"
+    },
+    {
+      "option": "Lanzarote",
+      "value": "lanzarote.html"
+    },
+    {
+      "option": "La Palma",
+      "value": "lapalma.html"
+    },
+    {
+      "option": "Tenerife",
+      "value": "tenerife.html"
+    }
+  ],
+  "hamburger_menu": [
+    {
+      "option": "What to do",
+      "value": "whattodo.html"
+    },
+    {
+      "option": "About",
+      "value": "aboutpage.html"
+    },
+    {
+      "option": "FAQs",
+      "value": "faqspage.html"
+    }
+  ]
+}

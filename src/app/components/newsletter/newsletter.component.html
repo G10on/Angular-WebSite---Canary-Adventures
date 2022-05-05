@@ -1,0 +1,26 @@
+<app-sections [data]="this.newsletterSections"></app-sections>
+<div id="form">
+  <form id="newsletter-form">
+    <div id="message"></div>
+    <div class="form-input">
+      <div class="row">
+        <input type="text" required id="firstname" placeholder="First name" name="firstname">
+        <input type="text" required id="lastname" placeholder="Last name" name="lastname">
+      </div>
+
+      <div class="row">
+        <input type="email" required id="email" placeholder="Email" name="email">
+        <select name="languages" id="languages-news">
+          <option value="english">English</option>
+          <option value="spanish">Español</option>
+          <option value="german">Deutsch</option>
+          <option value="french">Français</option>
+        </select>
+      </div>
+    </div>
+    <div class="subscribe-button">
+      <input type="submit" value="Subscribe" id="subscribe">
+    </div>
+  </form>
+</div>
+
