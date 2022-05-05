@@ -25,7 +25,6 @@ import { ContactInformationComponent } from './components/contact-information/co
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { IntroTitleComponent } from './components/intro-title/intro-title.component';
 import { BlockGalleryComponent } from './components/block-gallery/block-gallery.component';
-import { SectionGalleryComponent } from './components/section-gallery/section-gallery.component';
 import { RelatedEventComponent } from './components/related-event/related-event.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ColImg50txt50Component } from './components/col-img50txt50/col-img50txt50.component';
@@ -47,7 +46,6 @@ import { ColImg50txt50Component } from './components/col-img50txt50/col-img50txt
     NewsletterComponent,
     IntroTitleComponent,
     BlockGalleryComponent,
-    SectionGalleryComponent,
     RelatedEventComponent,
     CategoryComponent,
     ColImg50txt50Component
