@@ -8,9 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class IntroTitleComponent implements OnInit {
 
-  @Input() introData: Observable<any> | undefined;
-  @Input() title: string | undefined;
-  @Input() image: string | undefined;
+  @Input() data: Observable<any> | undefined;
 
   constructor() { }
 

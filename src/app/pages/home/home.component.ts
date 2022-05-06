@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private service: RetrieveService) {
     this.homeIntroBG = this.service.getCollection('IntroBGs');
-    this.homeCatTxt = this.service.getCollection('HomeCatTxt');
+    this.homeCatTxt = this.service.getCollection('/Home/discover');
     this.homeInspTxt = this.service.getCollection('HomeInspTxt');
     this.homeGalleryData = this.service.getCollection('HomeCategories');
     this.homeGalleryInspiredData = this.service.getCollection('HomeInspired');
