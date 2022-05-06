@@ -27,7 +27,6 @@ export class HomeComponent implements OnInit {
     this.homeGalleryInspiredData = this.service.getCollection('HomeInspired');
     this.homeGalleryEventData = this.service.getCollection('EventRelated');
     this.docTest = this.service.getDocument('HomeTitleInfo', 'TO27uaCDg3yGybi6WJXS');
-    console.log(this.docTest);
   }
 
   ngOnInit(): void {
