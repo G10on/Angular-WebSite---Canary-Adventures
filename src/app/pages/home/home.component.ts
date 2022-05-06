@@ -16,6 +16,8 @@ export class HomeComponent implements OnInit {
   homeGalleryInspiredData: Observable<any[]>;
   homeGalleryEventData: Observable<any[]>;
 
+  docTest: Observable<any>;
+
 
   constructor(private service: RetrieveService) {
     this.homeIntroBG = this.service.getCollection('IntroBGs');
@@ -24,6 +26,8 @@ export class HomeComponent implements OnInit {
     this.homeGalleryData = this.service.getCollection('HomeCategories');
     this.homeGalleryInspiredData = this.service.getCollection('HomeInspired');
     this.homeGalleryEventData = this.service.getCollection('EventRelated');
+    this.docTest = this.service.getDocument('HomeTitleInfo', 'TO27uaCDg3yGybi6WJXS');
+    console.log(this.docTest);
   }
 
   ngOnInit(): void {

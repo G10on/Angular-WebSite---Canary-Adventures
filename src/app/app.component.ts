@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PWM-Sprint3-Nahima';
+  title = 'Canary Adventures';
 }
 

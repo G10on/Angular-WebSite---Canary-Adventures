@@ -1,6 +1,9 @@
 <app-intro-title title="Welcome to Canary Islands" image="https://p.bookcdn.com/data/Photos/r1920x773/7054/705429/705429376/Servatur-Green-Beach-photos-Exterior.JPEG"></app-intro-title>
 
 <main>
+
+  {{(docTest | async).t}}
+
   <app-sections
     [data]=homeCatTxt>
   </app-sections>

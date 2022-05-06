@@ -12,4 +12,8 @@ export class RetrieveService {
     return this.db.collection(path).valueChanges();
   }
 
+  getDocument(path: string, docID: string) {
+    return this.db.collection(path).doc(docID).valueChanges();
+  }
+
 }
