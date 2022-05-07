@@ -15,7 +15,7 @@ export class WhattodoComponent implements OnInit {
 
   constructor(private service: RetrieveService) {
     this.wtdIntroBG = this.service.getDocument('IntroBG', 'WhatToDo');
-    this.wtdIntroTxt = this.service.getDocument('WhatToDo', 'i');
+    this.wtdIntroTxt = this.service.getDocument('WhatToDo', 'intro');
     this.wtdGalleryData = this.service.getCollection('HomeCategories');
   }
 

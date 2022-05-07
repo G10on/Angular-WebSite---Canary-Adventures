@@ -9,10 +9,14 @@ import { RetrieveService } from '../../services/retrieve.service';
 })
 export class CategoryComponent implements OnInit {
 
-  data: Observable<any> | undefined;
+  catIntroBG: Observable<any>;
+  catIntroTxt: Observable<any>;
+  catGallery: Observable<any> | undefined;
 
   constructor(private service: RetrieveService) {
-    this.data = this.service.getCollection('WTDCategories');
+    this.catIntroBG = this.service.getDocument('IntroBG', 'Category');
+    this.catIntroTxt = this.service.getDocument('Category', 'intro');
+    this.catGallery = this.service.getCollection('WTDCategories');
   }
 
   ngOnInit() {
