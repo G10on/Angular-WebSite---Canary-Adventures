@@ -16,7 +16,7 @@ export class WhattodoComponent implements OnInit {
   constructor(private service: RetrieveService) {
     this.wtdIntroBG = this.service.getDocument('IntroBG', 'WhatToDo');
     this.wtdIntroTxt = this.service.getDocument('WhatToDo', 'intro');
-    this.wtdGalleryData = this.service.getCollection('Category/Categories/Paragliding');
+    this.wtdGalleryData = this.service.getCollection('WhatToD/Categories/WhatToDo');
   }
 
   ngOnInit(): void {
