@@ -28,7 +28,7 @@ import { BlockGalleryComponent } from './components/block-gallery/block-gallery.
 import { RelatedEventComponent } from './components/related-event/related-event.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ColImg50txt50Component } from './components/col-img50txt50/col-img50txt50.component';
-import { TitleContentComponent } from './com/title-content/title-content.component';
+import { TitleContentComponent } from './components/title-content/title-content.component';
 
 
 @NgModule({

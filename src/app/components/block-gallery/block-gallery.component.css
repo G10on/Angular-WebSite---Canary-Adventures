@@ -89,6 +89,13 @@
 
 
 
+p {
+    height: 4px;
+    overflow:hidden;
+}
+
+
+
 .home_events {
     margin: 50px auto;
     overflow: scroll;
