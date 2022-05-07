@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { RetrieveService } from '../../services/retrieve.service';
+import { DatabaseService } from '../../services/database.service';
 
 @Component({
   selector: 'app-category',

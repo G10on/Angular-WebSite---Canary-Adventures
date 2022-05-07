@@ -4,7 +4,7 @@ import {AngularFirestore} from "@angular/fire/compat/firestore";
 @Injectable({
   providedIn: 'root'
 })
-export class RetrieveService {
+export class DatabaseService {
 
   constructor(private db: AngularFirestore) { }
 

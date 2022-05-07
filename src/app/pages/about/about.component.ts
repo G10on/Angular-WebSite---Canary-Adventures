@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
-import {RetrieveService} from "../../services/retrieve.service";
+import {DatabaseService} from "../../services/d.service";
 
 @Component({
   selector: 'app-about',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { RetrieveService } from '../../services/retrieve.service';
+import { DatabaseService } from '../../services/database.service';
 
 @Component({
   selector: 'app-whattodo',
@@ -13,7 +13,7 @@ export class WhattodoComponent implements OnInit {
   wtdIntroTxt: Observable<any>;
   wtdGalleryData: Observable<any[]>;
 
-  constructor(private service: RetrieveService) {
+  constructor(private service: DatabaseService) {
     this.wtdIntroBG = this.service.getDocument('IntroBG', 'WhatToDo');
     this.wtdIntroTxt = this.service.getDocument('WhatToDo', 'intro');
     this.wtdGalleryData = this.service.getCollection('WhatToDo/Categories/WhatToDo');

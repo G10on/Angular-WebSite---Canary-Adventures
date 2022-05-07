@@ -29,6 +29,7 @@ import { RelatedEventComponent } from './components/related-event/related-event.
 import { CategoryComponent } from './pages/category/category.component';
 import { ColImg50txt50Component } from './components/col-img50txt50/col-img50txt50.component';
 import { TitleContentComponent } from './components/title-content/title-content.component';
+import { EventComponent } from './pages/event/event.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { TitleContentComponent } from './components/title-content/title-content.
     RelatedEventComponent,
     CategoryComponent,
     ColImg50txt50Component,
-    TitleContentComponent
+    TitleContentComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,

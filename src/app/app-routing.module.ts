@@ -7,6 +7,7 @@ import {AboutComponent} from "./pages/about/about.component";
 import {HomeComponent} from "./pages/home/home.component";
 import {NewsletterComponent} from "./components/newsletter/newsletter.component";
 import { CategoryComponent } from './pages/category/category.component';
+import { EventComponent } from './pages/event/event.component';
 
 const routes: Routes = [
   { path: 'faq', component: FaqComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'newsletter', component: NewsletterComponent},
   { path: 'ScubaDive', component: CategoryComponent},
   { path: 'Paragliding', component: CategoryComponent},
+  { path: 'event', component: EventComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 

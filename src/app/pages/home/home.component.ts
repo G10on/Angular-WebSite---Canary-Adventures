@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
-import {RetrieveService} from "../../services/retrieve.service";
+import {DatabaseService} from "../../services/database.service";
 
 @Component({
   selector: 'app-home',
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   homeGalleryEventData: Observable<any[]>;
 
 
-  constructor(private service: RetrieveService) {
+  constructor(private service: DatabaseService) {
     this.homeIntroBG = this.service.getDocument('IntroBG', 'Home');
     this.homeCatTxt = this.service.getDocument('Home', 'discover');
     this.homeInspTxt = this.service.getDocument('Home', 'inspired');
