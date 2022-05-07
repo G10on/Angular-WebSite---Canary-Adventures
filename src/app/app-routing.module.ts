@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'newsletter', component: NewsletterComponent},
   { path: 'category', component: CategoryComponent},
+  { path: 'category', component: CategoryComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
