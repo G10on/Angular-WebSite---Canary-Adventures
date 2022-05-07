@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'newsletter', component: NewsletterComponent},
   { path: 'ScubaDive', component: CategoryComponent},
-  { path: 'Paraglid', component: CategoryComponent},
+  { path: 'Paragliding', component: CategoryComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 

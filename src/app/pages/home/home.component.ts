@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
     this.homeInspTxt = this.service.getDocument('Home', 'inspired');
     this.homeEventTxt = this.service.getDocument('Home', 'events');
     this.homeGalleryData = this.service.getCollection('HomeCategories');
-    this.homeGalleryInspiredData = this.service.getCollection('HomeInspired');
+    this.homeGalleryInspiredData = this.service.getCollection('WhatToDo/Categories/WhatToDo');
     this.homeGalleryEventData = this.service.getCollection('EventRelated');
   }
 
