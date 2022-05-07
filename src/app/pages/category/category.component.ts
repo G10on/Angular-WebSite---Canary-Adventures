@@ -14,7 +14,7 @@ export class CategoryComponent implements OnInit {
   catGallery: Observable<any> | undefined;
 
   constructor(private service: RetrieveService) {
-    this.catIntroBG = this.service.getDocument('IntroBG', 'ScubaDi');
+    this.catIntroBG = this.service.getDocument('IntroBG', 'ScubaDive');
     this.catIntroTxt = this.service.getDocument('Category', 'intro');
     this.catGallery = this.service.getCollection('Category/Categories/ScubaDive');
   }
