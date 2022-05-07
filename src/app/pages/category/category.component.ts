@@ -14,7 +14,7 @@ export class CategoryComponent implements OnInit {
   catIntroTxt: Observable<any>;
   catGallery: Observable<any> | undefined;
 
-  constructor(private service: RetrieveService, router:Router) {
+  constructor(private service: DatabaseService, router:Router) {
 
     let basePath = "Category/Categories";
     this.catIntroBG = this.service.getDocument('IntroBG', router.url);

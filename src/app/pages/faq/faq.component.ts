@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {RetrieveService} from "../../services/retrieve.service";
+import {DService} from "../../services/D.service";
 import {Observable} from "rxjs";
 
 @Component({
@@ -10,7 +10,7 @@ import {Observable} from "rxjs";
 export class FaqComponent implements OnInit {
   faqSections: Observable<any[]>;
 
-  constructor(private service: RetrieveService) {
+  constructor(private service: DService) {
     this.faqSections = this.service.getCollection('FaqSections');
   }
 
