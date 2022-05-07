@@ -30,6 +30,8 @@ import { CategoryComponent } from './pages/category/category.component';
 import { ColImg50txt50Component } from './components/col-img50txt50/col-img50txt50.component';
 import { TitleContentComponent } from './components/title-content/title-content.component';
 import { EventComponent } from './pages/event/event.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { EventInformationComponent } from './components/event-information/event-information.component';
 
 
 @NgModule({
@@ -52,7 +54,9 @@ import { EventComponent } from './pages/event/event.component';
     CategoryComponent,
     ColImg50txt50Component,
     TitleContentComponent,
-    EventComponent
+    EventComponent,
+    GalleryComponent,
+    EventInformationComponent
   ],
   imports: [
     BrowserModule,

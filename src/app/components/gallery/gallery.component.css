@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+main > article {
+  text-align: justify;
+  text-justify: inter-word;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 3.0em;
+}
+
+article p {
+  line-height: 1.75;
+}
+
+.gallery {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-images img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .event-location-map img {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .event-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+  }
+}
+
+.event-location-map img {
+  width: 100%;
+  height: 100%;
+}
+
+.left-panel div {
+  margin-top: 1.5em;
+}
+
+.left-panel i {
+  margin-right: 0.5em;
+}
+
+.share {
+  padding: 0.7em 4.2em 0.7em 3em;
+  text-transform: uppercase;
+  font-family: 'Roboto', monospace;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: rgba(7, 56, 91, 0.55);
+  color: white;
+  border-radius: 2.0em;
+  border: 1px solid grey;
+}
+
+.share:hover {
+  background-color: rgba(7, 56, 91, 0.84);
+}
+
+.fa-share-nodes {
+  position: absolute;
+  left: 7em;
+}
+
+.share-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.related-events-display {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+}
+
+.event-preview {
+  margin-left: 3em;
+  position: relative;
+  text-align: left;
+}
+
+.event-preview img {
+  height: 20em;
+  width: 15em;
+}
+
+.related-event-info h3 {
+  text-transform: uppercase;
+  font-family: "Roboto", monospace;
+  font-size: 1.15em;
+  font-weight: 500;
+  line-height: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.related-event-info {
+  position: absolute;
+  bottom: 2em;
+  left: 1.5em;
+  right: 2em;
+  font-size: 0.9em;
+}
+
+.related-event-info div {
+  margin-bottom: 0.5em;
+}
+
+.related-event-info p {
+  margin-bottom: 0.5em;
+}
+
+.related-event-info div i {
+  margin-right: 0.5em;
+}
+
+.img_welcome {
+  height: 20em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images-ext-2.discordapp.net/external/sAN7QfqKuYyO6atjO8FfCMH5dMvnPKyvhh-lvTqTzIY/https/mediohippie.com/wp-content/uploads/IMG_4508-1280x1074.jpg?width=1262&height=1059");
+}

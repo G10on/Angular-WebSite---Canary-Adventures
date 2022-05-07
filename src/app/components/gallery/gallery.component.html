@@ -1,0 +1,10 @@
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="event-images" *ngFor="let image of images | async">
+    <img [src]="image.imageURL">
+  </div>
+  <div class="share-button">
+    <input type="submit" value="Share" class="share">
+    <fa-icon class="fa-share-nodes" [icon]="faShareNodes"></fa-icon>
+  </div>
+</section>

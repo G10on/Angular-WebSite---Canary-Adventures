@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
 import {Logo} from "../../model/interfaces.model";
-import {RetrieveService} from "../../services/retrieve.service";
+import {DatabaseService} from "../../services/database.service";
 
 @Component({
   selector: 'app-logo',
@@ -11,7 +11,7 @@ import {RetrieveService} from "../../services/retrieve.service";
 export class LogoComponent implements OnInit {
   logoInfo: Observable<any[]>;
 
-  constructor(private service: RetrieveService) {
+  constructor(private service: DatabaseService) {
     this.logoInfo = this.service.getCollection('SiteLogo');
   }
 

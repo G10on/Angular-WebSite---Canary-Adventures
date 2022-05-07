@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Observable} from "rxjs";
-import {RetrieveService} from "../../services/retrieve.service";
+import {DatabaseService} from "../../services/database.service";
 
 @Component ({
   selector:'web-footer',
@@ -11,7 +11,7 @@ export class FooterComponent {
   footerLinks: Observable<any[]>;
   footerSocialMediaLinks: Observable<any[]>;
 
-  constructor(private service: RetrieveService) {
+  constructor(private service: DatabaseService) {
     this.footerLinks = this.service.getCollection('FooterLinks');
     this.footerSocialMediaLinks = this.service.getCollection('FooterSocialMediaLinks');
   }

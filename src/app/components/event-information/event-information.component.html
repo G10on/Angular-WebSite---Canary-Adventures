@@ -1,0 +1,25 @@
+<section  *ngFor="let inform of information | async">
+<h2>{{title}}</h2>
+<div class="event-info">
+  <div class="left-panel">
+    <p class="event-info-p">
+      {{inform.content}}
+    </p>
+    <div>
+      <fa-icon [icon]="faLocationDot"></fa-icon>
+      {{inform.location}}
+    </div>
+    <div>
+      <fa-icon [icon]="faAt"></fa-icon>
+      {{inform.email}}
+    </div>
+    <div>
+      <fa-icon [icon]="faPhone"></fa-icon>
+      {{inform.number}}
+    </div>
+  </div>
+  <figure class="event-location-map">
+    <img [src]="inform.imageURL">
+  </figure>
+</div>
+</section>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DatabaseService} from "../../services/Database.service";
+import {DatabaseService} from "../../services/database.service";
 import {Observable} from "rxjs";
 
 @Component({

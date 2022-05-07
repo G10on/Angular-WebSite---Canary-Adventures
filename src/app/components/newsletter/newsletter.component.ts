@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {RetrieveService} from "../../services/retrieve.service";
+import {DatabaseService} from "../../services/database.service";
 import {Observable} from "rxjs";
 
 @Component({
@@ -10,7 +10,7 @@ import {Observable} from "rxjs";
 export class NewsletterComponent implements OnInit {
   newsletterSections: Observable<any[]>;
 
-  constructor(private service: RetrieveService) {
+  constructor(private service: DatabaseService) {
     this.newsletterSections = this.service.getCollection('NewsletterSections');
   }
 
