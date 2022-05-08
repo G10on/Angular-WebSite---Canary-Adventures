@@ -16,8 +16,16 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent},
   { path: 'newsletter', component: NewsletterComponent},
+
   { path: 'ScubaDive', component: CategoryComponent},
   { path: 'Paragliding', component: CategoryComponent},
+  { path: 'CatamaranSailing', component: CategoryComponent},
+  { path: 'Cruise', component: CategoryComponent},
+  { path: 'Gastronomy', component: CategoryComponent},
+  { path: 'JeepTour', component: CategoryComponent},
+  { path: 'SunsetDolphines', component: CategoryComponent},
+  { path: 'PirateAdventure', component: CategoryComponent},
+
   { path: 'event', component: EventComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
