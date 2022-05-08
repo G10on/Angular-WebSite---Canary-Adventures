@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'Cruise', component: CategoryComponent},
   { path: 'Gastronomy', component: CategoryComponent},
   { path: 'JeepTour', component: CategoryComponent},
-  { path: 'SunsetDolphines', component: CategoryComponent},
+  { path: 'SunsetDolphins', component: CategoryComponent},
   { path: 'PirateAdventure', component: CategoryComponent},
 
   { path: 'event', component: EventComponent},
